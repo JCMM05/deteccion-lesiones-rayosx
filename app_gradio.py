@@ -6,12 +6,14 @@ from PIL import Image
 from torchvision import transforms, models
 import cv2
 import os
+from dotenv import load_dotenv
+load_dotenv()
 import base64
 import io
 
 # ── Configuración ──────────────────────────────────────────
 MODEL_PATH = r'C:\Users\WinterOS\deteccion-lesiones-rayosx\models\best_model.pth'
-GROQ_API_KEY = "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"
+GROQ_API_KEY = os.getenv("GROQ_API_KEY", "")
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # ── Cargar modelo ──────────────────────────────────────────
