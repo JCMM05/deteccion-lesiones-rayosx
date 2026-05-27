@@ -16,7 +16,7 @@ Sistema de apoyo diagnóstico que detecta anomalías óseas en radiografías usa
 - **AUC-ROC:** 0.773
 - **F1-Score:** 0.71
 
-## 🚀 Cómo ejecutar
+##  Cómo ejecutar
 
 ```bash
 # App Gradio
