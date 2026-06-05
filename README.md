@@ -23,7 +23,7 @@ Desarrollar una aplicación capaz de detectar anomalías óseas en radiografías
 | Métrica   | Valor |
 | --------- | ----- |
 | Accuracy  | 71%   |
-| AUC-ROC   | 0.773 |
+| AUC-ROC   | 0.7725 |
 | F1-Score  | 0.71  |
 | Precision | 0.71  |
 | Recall    | 0.71  |
